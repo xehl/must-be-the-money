@@ -15,7 +15,7 @@ export default function AddNewButton({audio, setAudio}) {
   return (
     <>
       <label onClick={handleButton} type="file" id="upload" className="add-new">
-        <input className="audioinput" type="file" accept=".mp3, .wav" id="upload" onChange={handleFiles} /> ADD NEW SOUND EFFECT
+        <input className="audioinput" type="file" accept=".mp3, .wav" id="upload" onChange={handleFiles} /> UPLOAD SOUND EFFECT
       </label>
     </>
   )
